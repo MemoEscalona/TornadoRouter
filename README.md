@@ -1,2 +1,34 @@
-# TornadoRouter
-TornadoRouter es una biblioteca ligera, robusta y fácil para desarrollar rápidamente API en PHP.
+/***********************************************************/
+	//	  ______ ____   ____   _   __ ___     ____   ____ 		//
+	//	 /_  __// __ \ / __ \ / | / //   |   / __ \ / __ \		//
+	//	  / /  / / / // /_/ //  |/ // /| |  / / / // / / /		//
+	//	 / /  / /_/ // _, _// /|  // ___ | / /_/ // /_/ / 		//
+	//	/_/   \____//_/ |_|/_/ |_//_/  |_|/_____/ \____/  		//
+	//															                          //         
+	/************************************************************/
+
+# Tornado Router
+
+Tornado Router es una biblioteca ligera, robusta y fácil para desarrollar rápidamente una Api en Php.
+
+## Instalar Tornado Router con Composer
+
+Agrega geoshada/TornadoRouter a tu composer.json 
+
+
+```bash
+{
+ "require":{
+    "geoshada/TornadoRouter":"^1.0.0"
+  }
+}
+```
+
+## Colaboradores
+
+[Guillermo Escalona](https://escalona.tech/) 
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://github.com/geoshada/TornadoRouter/blob/master/LICENSE)
