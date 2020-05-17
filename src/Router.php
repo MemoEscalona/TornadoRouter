@@ -19,8 +19,7 @@
 	            foreach ($methods as $method) {
 	                $this->routes[$method][$params['path']] = array(
 	                    'template' => $template,
-	                    'callback' => $params[$method],
-	                    'file'     => !empty($params['file']) ? $params['file'] : ''
+	                    'callback' => $params[$method]
 	                );
 	                BaseMiddleware::$routes[$method][$params['path']] = $this->routes[$method][$params['path']];
 	            }
