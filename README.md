@@ -10,7 +10,7 @@ Agrega geoshada/TornadoRouter a tu composer.json
 ```bash
 {
  "require":{
-    "geoshada/TornadoRouter":"^1.0.0"
+    "geoshada/tornado-router":"^1.0.0"
   }
 }
 ```
