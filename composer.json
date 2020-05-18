@@ -1,0 +1,24 @@
+{
+  "name":"tornado/TornadoRouter",
+  "type":"library",
+  "description":"Simpe HTTP router.",
+  "homepage":"https://github.com/geoshada/TornadoRouter",
+  "license":"MIT",
+  "minimum-stability": "master",
+  "keywords": ["routing","tornado"],
+  "authors": [
+    {
+      "name":"Guillermo Escalona",
+      "homepage":"https://escalona.tech"
+    }
+  ],
+  "require":{
+    "php": ">=5.3.0"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "TornadoRouter\\": "src/"
+    }
+  }
+}
