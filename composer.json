@@ -4,7 +4,7 @@
   "description":"Simpe HTTP router.",
   "homepage":"https://github.com/geoshada/TornadoRouter",
   "license":"MIT",
-  "minimum-stability": "master",
+  "minimum-stability": "stable",
   "keywords": ["routing","tornado"],
   "authors": [
     {
