@@ -1,5 +1,5 @@
 {
-  "name":"tornado/tornadoRouter",
+  "name":"geoshada/tornadoRouter",
   "type":"library",
   "description":"Simpe HTTP router.",
   "homepage":"https://github.com/geoshada/TornadoRouter",
