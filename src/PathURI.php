@@ -105,7 +105,7 @@
     	 */
 	    public function match($uri) {
 	        $uri = rtrim($uri, '\/');
-	        $match_found = preg_match($this->getExpression(), $uri, $matches);
+	        $match_found = preg_match($this->getRegularExpression(), $uri, $matches);
 	        // si no hubo coincidencias se retorna al router
 	        if (! $match_found) return;
 	        foreach($matches as $k => $v) {
