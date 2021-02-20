@@ -3,4 +3,4 @@
 namespace TornadoRouter\Exceptions;
 
 /** Invalid path exception **/
-class TornadoRouterException extends \Exception {}
+class InvalidResponseStateException extends \Exception {}
