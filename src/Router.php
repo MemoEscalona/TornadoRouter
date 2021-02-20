@@ -39,7 +39,7 @@
 	        $className = array_shift($args);
 	        // si el nombre de la clase no extiende de la clase 
 	        if (!is_subclass_of($className, '\TornadoRouter\BaseMiddleware')) {
-	            throw new Exception("Middleware class: '$className' does not exist or is not a sub-class of \TornadoRouter\BaseMiddleware" );
+	            throw new \Exception("Middleware class: '$className' does not exist or is not a sub-class of \TornadoRouter\BaseMiddleware" );
 	        }
 	        // convert args array to parameter list
 	        $reflection = new \ReflectionClass($className);

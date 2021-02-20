@@ -22,7 +22,7 @@
                 }
             }
             if (!is_callable($callback)) {
-                throw new Exception('Invalid callback');
+                throw new \Exception('Invalid callback');
             }
             return $callback;
         }
