@@ -96,7 +96,7 @@
 	            //si los parametros no estan vacios
 	            if (!is_null($params)) {
 	            	//asignamos el template
-	                BaseMiddleware::$context['pattern'] = $route['template']->getTemplate();
+	                BaseMiddleware::$context['pattern'] = $route['template']->getPath();
 	                //asignamos la URI
 	                BaseMiddleware::$context['request_uri'] = $uri;
 	                //asignamos el metodo
