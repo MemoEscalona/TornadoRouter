@@ -16,7 +16,7 @@
      	*/
     	public function addRoute($params) {
 	        if (!empty($params['path'])) {
-	            $template = new \TornadoRouter\PathURI($params['path']);
+	            $template = new PathURI($params['path']);
 	            $methods = array_intersect(self::$methods, array_keys($params));
 	            foreach ($methods as $method) {
 	                $this->routes[$method][$params['path']] = array(
