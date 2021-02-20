@@ -4,6 +4,8 @@
 	 * Clase que maneja las rutas de las peticiones
 	 */
 	class Router{
+		//varible del middleware
+		protected static $middleware=array();
 		//variable que maneja las rutas
 		protected $routes  = array();
 		//variable que lista el whitelist de los tipos de peticiones que se van a ocupar.
