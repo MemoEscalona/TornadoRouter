@@ -43,7 +43,7 @@
             $this->verifyResponseCode($code);
             if (!empty($format)) {
                 if (headers_sent()) {
-                    throw new \Exception("Response format already sent: {$this->format}");
+                    throw new TornadoRouterException("Response format already sent: {$this->format}");
                 }
                 $this->setFormat($format);
             }
@@ -67,14 +67,14 @@
         protected function verifyResponseCode($code) {
             if (!empty($code)) {
                 if (headers_sent()) {
-                    throw new \Exception("Response code already sent: {$this->code}");
+                    throw new TornadoRouterException("Response code already sent: {$this->code}");
                 }
                 $codes = $this->codes();
                 if (array_key_exists($code, $codes)) {
                     //$protocol = $this->req->protocol;
                     $this->code = $code;
                 } else {
-                    throw new \Exception("Invalid Response Code: $code");
+                    throw new TornadoRouterException("Invalid Response Code: $code");
                 }
             }
         }

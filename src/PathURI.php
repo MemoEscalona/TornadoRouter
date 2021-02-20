@@ -121,7 +121,7 @@
 	                    if ($value) {
 	                        $matches[$k] = $value;
 	                    } else {
-	                        throw new \Exception('Invalid parameters detected');
+	                        throw new TornadoRouterException('Invalid parameters detected');
 	                    }
 	                }
 	                //si el valor contiene una diagonal,se hace un explode y se agrega al arreglo
@@ -158,7 +158,7 @@
 	                $matched = false;
 	            }
 	            if ($matched == false) {
-	                throw new \Exception('Request does not match');
+	                throw new TornadoRouterException('Request does not match');
 	            }
 	        }
 	    }
