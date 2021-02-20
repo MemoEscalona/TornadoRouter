@@ -109,7 +109,7 @@
 	            }
 	        }
 	        if($result==null){
-        		throw new Exception('Invalid path');
+        		throw new \Exception('Invalid path');
 	        }
 	        return $result;
     	}

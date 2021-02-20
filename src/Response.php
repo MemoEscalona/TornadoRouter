@@ -74,7 +74,7 @@
                     //$protocol = $this->req->protocol;
                     $this->code = $code;
                 } else {
-                    throw new Exception("Invalid Response Code: $code");
+                    throw new \Exception("Invalid Response Code: $code");
                 }
             }
         }
