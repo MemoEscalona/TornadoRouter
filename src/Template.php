@@ -17,7 +17,7 @@ class Template {
     * @param String $path ruta agregada a la clase
     */
     public function __construct($path) {
-        if ($path{0} != '/') {
+        if ($path[0] != '/') {
             $path = "/$path";
         }
         $this->template = rtrim($path, '\/');
